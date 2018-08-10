@@ -19,7 +19,7 @@ var currentLine = (line)=>{
   }else{
     var online = "The line is currently: "
     for(let i = 0; i < line.length; i++){
-      online += `${i}. ${line[i]}`
+      online += `${i+1}. ${line[i]}`
     }
     return online
   }
