@@ -9,6 +9,6 @@ var nowServing = (line) =>{
   }else{
     var serving = line[0]
     line.shift()
-    return serving
+    return `Currently serving ${serving}.`
   }
 };
